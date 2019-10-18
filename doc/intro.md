@@ -25,8 +25,9 @@ Arguments:
 ###### `cache-get` 
 Arguments:
 - key
+
 Returns:
-- value if exists in cache and is valid, nil otherwise
+- value if it exists in cache and is valid, nil otherwise
 
 ### client.clj
 #### Data
