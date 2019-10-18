@@ -14,15 +14,18 @@ ttl: 200}``
 #### Leiningen
 
 Run with `lein run 10000`
+Run tests with `lein test`
 
 #### Standalone JAR
+
+Build jar with `lein uberjar`, or
 
 Download jar, then follow Usage instructions
 
 ## Usage
 
 Run 10000 randomly generated requests
-    $ java -jar osoclient-0.1.0-standalone.jar 10000
+    `$ java -jar osoclient-0.1.0-standalone.jar 10000`
 
 ## License
 
